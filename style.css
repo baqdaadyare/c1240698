@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.p1{
+  color: azure;
+  padding-top: 20px;
+}
+
+body {
+  background-color: #f0f0f0;
+}
+
+.top-bar {
+  background-color: #2c3e99;
+  color: white;
+  padding: 8px 20px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.logo h2 {
+  font-size: 20px;
+  color: #2c3e99;
+}
+
+/* Hero section with background image */
+.hero {
+  background-image: url('images/background.jpg'); /* Beddel sawirka magaca */
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-text {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-text p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: azure;
+}
+
+.hero-text h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-text a {
+  background-color: white;
+  
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.about-section {
+  background-color: #fff;
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.about-text h2 {
+  font-size: 24px;
+  color: #1d2a75;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.about-text p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* Qaybta tirada (statistics) */
+.stats {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.stat-box {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  width: 120px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.stat-box h3 {
+  font-size: 24px;
+  color: #1d2a75;
+  margin-bottom: 5px;
+}
+
+.stat-box p {
+  font-size: 14px;
+  color: #666;
+}
+
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f8f8f8;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    h1 {
+      color: #2c2c8a;
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 18px;
+      color: #555;
+      max-width: 600px;
+      margin: 0 auto 30px;
+    }
+
+    .admission-box {
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 0 auto;
+      max-width: 500px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .admission-box img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .programs {
+      text-align: left;
+      margin-top: 10px;
+    }
+
+    .programs ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    .programs li {
+      margin-bottom: 5px;
+    }
+    
+  /* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* Navigation bar */
+.main-nav {
+  background-color: #1d2a75;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  justify-content: center;
+}
+
+
+
+/* Nav links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+  color: #00cc99;
+}
+
+/* Active link */
+.nav-links a.active {
+  border-bottom: 2px solid #00cc99;
+  padding-bottom: 3px;
+}
+ 
+.site-footer {
+  background-color: #1d2a75;
+  color: white;
+  padding: 40px 20px 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer-content h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.footer-content p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: rgb(218, 39, 39);
+  font-weight: 500;
+}
+
+.footer-links a:hover {
+  color: #00cc99;
+}
+
+.footer-bottom {
+  font-size: 13px;
+  color:white;
+}
+footer div p{
+  color: azure;
+}

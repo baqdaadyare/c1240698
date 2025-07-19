@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .contact-section {
+  background-color: #f8f8f8;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.contact-section h2 {
+  color: #1d2a75;
+  margin-bottom: 10px;
+  font-size: 26px;
+}
+
+.contact-section p {
+  color: #555;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.contact-form button {
+  background-color: #1d2a75;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #0f1e5c;
+}
+
+/* Navigation bar */
+.main-nav {
+  background-color: #1d2a75;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  justify-content: center;
+}
+
+
+
+/* Nav links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+  color: #00cc99;
+}
+
+/* Active link */
+.nav-links a.active {
+  border-bottom: 2px solid #00cc99;
+  padding-bottom: 3px;
+}
+.site-footer {
+  background-color: #1d2a75;
+  color: white;
+  padding: 40px 20px 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer-content h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.footer-content p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: rgb(218, 39, 39);
+  font-weight: 500;
+}
+
+.footer-links a:hover {
+  color: #00cc99;
+}
+
+.footer-bottom {
+  font-size: 13px;
+  color:white;
+}
+footer div p{
+  color: azure;
+}
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+</head>
+<body>
+   <!-- Navigation bar -->
+<nav class="main-nav">
+  <ul class="nav-links">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+  </div>
+    <!-- Contact Us Section -->
+<section class="contact-section">
+  <h2>Contact Us</h2>
+  <p>Have questions? Get in touch with us by filling the form below.</p>
+
+  <form class="contact-form">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+ <footer class="site-footer">
+  <div class="footer-content">
+   
+    <p>Empowering women through quality education in Somaliland.</p>
+   
+  <div class="footer-bottom">
+    <p>&copy; 2025 Barwaaqo University. All rights reserved.</p>
+  </div>
+</footer>
+</body>
+</html>
